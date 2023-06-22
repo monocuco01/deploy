@@ -1,0 +1,57 @@
+.container_botones {
+  background-color: #fbe0c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8a7862;
+
+  min-height: 50px;
+}
+.filter-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter-select {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #37745b;
+  color: white;
+  border: none;
+
+  cursor: pointer;
+}
+
+.filter_where {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.boton_create {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #37745b;
+  color: white;
+  border: none;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.boton_create:hover {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+option {
+  cursor: pointer;
+  color: white;
+}
+
+.form-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  padding: 20px;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-in-out;
+}

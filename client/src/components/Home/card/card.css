@@ -1,0 +1,35 @@
+.carta img {
+  width: 230px;
+  height: 230px;
+  margin: 20px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carta {
+  height: 420px;
+  background-color: #37745b;
+  margin-top: 50px;
+  margin-left: 35px;
+  color: white;
+  cursor: pointer;
+  width: 280px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.carta:hover {
+  background-color: #344648;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carta p {
+  margin: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: aliceblue;
+  font-size: 16px;
+  line-height: 1.5;
+}

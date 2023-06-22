@@ -1,0 +1,198 @@
+.form-popup {
+  animation: fadeIn 0.3s ease-in-out;
+  animation-fill-mode: both;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(#fbe0c386, #fbe0c386),
+    url("../../img/patron-perr…garabato-sobre-fondo-blanco_192280-1320.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 1px solid #dddddd;
+  padding: 25px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0 0 50px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 600px;
+
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-popup.closing {
+  animation: fadeOut 0.3s ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 90%;
+  margin-left: 30px;
+}
+
+.form-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+  flex-basis: calc(50% - 10px);
+  color: black;
+}
+.form-select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #fbe0c386;
+  border-radius: 4px;
+  font-size: 14px;
+  flex-basis: calc(50% - 10px);
+  height: 38px;
+  background-color: #37745b;
+  color: #ffffff;
+  font-weight: 300;
+}
+.form-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #fbe0c386;
+  border-radius: 4px;
+  font-size: 14px;
+  flex-basis: calc(50% - 10px);
+  height: 30px;
+  background-color: #37745b;
+  color: #ffffff;
+  font-weight: 300;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.644); /* Color deseado para el placeholder */
+}
+.form-input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.form-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+.pruebasutmit {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-button {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: #37745b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-button:hover {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+.boton_cerrar_prueba {
+  position: relative;
+  width: 100%;
+}
+.outside-error-message {
+  position: absolute;
+  left: 400px;
+  bottom: -50px;
+  color: red;
+  font-size: medium;
+  font-weight: 500;
+}
+.form-close-button {
+  position: absolute;
+  bottom: 0px;
+  left: 650px;
+  padding: 8px;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #37745b;
+  color: white;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.form-close-button:hover {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+
+.form-button {
+  align-self: center;
+}
+
+.form-close-button {
+  align-self: flex-end;
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end; /* Modificado para alinear a la derecha */
+}
+
+.form-input.temperamentos,
+.form-select.temperamentos,
+.form-input.aniosVida,
+.form-select.aniosVida {
+  flex-basis: calc(50% - 10px);
+}
+
+.selected-temper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.selected-temper p {
+  border: 1px solid #37745b;
+  background-color: #37745b;
+  padding: 5px;
+  border-radius: 4px;
+  display: flex;
+  color: white;
+  font-size: 14px;
+}
+
+.nose {
+}

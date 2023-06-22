@@ -1,0 +1,59 @@
+.container_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  background-image: linear-gradient(#fbe0c359, #fbe0c35d),
+    url("../../../img/patron-perr…garabato-sobre-fondo-blanco_192280-1320.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #37745b;
+  color: white;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.pagination button:hover {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+
+.pagination button.active {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+.cargando {
+  height: 82.5vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cargando p {
+  font-size: 80px;
+}

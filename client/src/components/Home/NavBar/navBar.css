@@ -1,0 +1,31 @@
+* {
+  /* Estilos generales que se aplicarán a todos los elementos */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Agrega más estilos aquí según tus necesidades */
+}
+a {
+  text-decoration: none;
+  margin-top: 1px;
+}
+.container_Navbar {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background-color: #f6f4e8;
+  align-items: center;
+  justify-content: space-between;
+}
+.logos {
+  display: flex;
+  align-items: center;
+}
+.logos img {
+  margin-top: 21px;
+  height: 50px;
+}
+.logos h2 {
+  margin-top: 2px;
+  color: #2f2e41;
+}

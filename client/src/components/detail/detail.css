@@ -1,0 +1,59 @@
+.detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(#fbe0c359, #fbe0c35d),
+    url("../../img/patron-perr…garabato-sobre-fondo-blanco_192280-1320.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.detail-content {
+  display: flex;
+  background-color: #37745b;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  color: #ffffff;
+  max-width: 1030px;
+}
+
+.detail-image img {
+  flex-shrink: 0;
+  width: 430px;
+  margin-right: 20px;
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.detail-name {
+  font-size: 30px; /* Aumentar el tamaño de la fuente */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.detail-info p {
+  margin: 20px 0; /* Aumentar el espacio vertical */
+  font-size: 18px;
+}
+.detail-container button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+  color: white;
+  border: none;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.detail-container button::hover {
+  background-color: #0e2d49;
+  box-shadow: 1px 1px 1px #ff9600;
+}

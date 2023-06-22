@@ -1,0 +1,41 @@
+.container_searchbar {
+  padding: 20px;
+}
+.search-input {
+  /* Estilos para el input */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #37745b;
+  color: white;
+  border: 1px solid #37745b;
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-input::placeholder {
+  color: white; /* Color del marcador de posición */
+}
+.search-button {
+  /* Estilos para el botón */
+  padding: 11px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #344648;
+  color: white;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0%;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #ff9600;
+  box-shadow: 1px 1px 1px #ff9600;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: none;
+}
