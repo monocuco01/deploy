@@ -12,8 +12,7 @@ const Home = () => {
     dispatch(getDogs());
     dispatch(getTemp());
     dispatch(getDogName());
-    dispatch(getDog());
-    dispatch(getTemp());
+    +dispatch(getTemp());
   }, [dispatch]);
 
   return (
