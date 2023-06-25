@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import Form from "./components/form/Form";
 import Detail from "./components/detail/detail";
 import axios from "axios";
-axios.defaults.baseURL = "deploy-production-2269.up.railway.app";
+axios.defaults.baseURL = "https://deploy-production-2269.up.railway.app/";
 function App() {
   return (
     <Routes>
