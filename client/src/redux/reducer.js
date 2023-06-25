@@ -1,3 +1,12 @@
+import {
+  GET_DOGS,
+  GET_TEMPER,
+  GET_DOG_NAME,
+  GET_DOG_DETAIL,
+  RESET_DETAIL,
+  GET_IMAGE,
+} from "./actions";
+
 const initialState = {
   dogs: [],
   temper: [],
@@ -8,15 +17,6 @@ const initialState = {
   filteredDogs: [],
   nameValid: false,
 };
-
-import {
-  GET_DOGS,
-  GET_TEMPER,
-  GET_DOG_NAME,
-  GET_DOG_DETAIL,
-  RESET_DETAIL,
-  GET_IMAGE,
-} from "./actions";
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
