@@ -13,6 +13,7 @@ const Home = () => {
     dispatch(getTemp());
     dispatch(getDogName());
     dispatch(getDog());
+    dispatch(getTemp());
   }, [dispatch]);
 
   return (
